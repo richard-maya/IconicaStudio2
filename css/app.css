@@ -10534,9 +10534,15 @@ section#clients h4,
 section#instagram h4 {
   color: black; }
 
-@media (min-width: 768px) {
-  section#clients img {
-    width: 80%; } }
+section#clients {
+  background-image: url("../assets/img/home/publicidad-toluca-iconica-studio.jpg");
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  @media (min-width: 768px) {
+    section#clients img {
+      width: 80%; } }
 
 section#instagram {
   background-image: url("../assets/img/home/instagram-iconica-studio.jpg");
@@ -10613,11 +10619,13 @@ section#description {
 *
 -----------------------*/
 section#portfolio-intro {
-  background-image: url("../assets/img/portfolio/iconica-studio-portafolio-trabajos.JPG");
+  background-image: url("../assets/img/portfolio/iconica-studio-portafolio-trabajos.png");
   background-size: 100% auto;
-  background-position: center right;
+  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%; }
   section#portfolio-intro h1 {
     font-size: 3.0517578125rem;
     color: white; }
