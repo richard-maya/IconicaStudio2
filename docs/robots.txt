@@ -1,0 +1,1 @@
+User-agent: *Allow: /Allow: /sitemap.htmlDisallow: /cgi-bin/Disallow: /.well-known/Sitemap: https://iconica.mx/sitemap.xml
